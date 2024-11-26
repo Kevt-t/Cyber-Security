@@ -1,9 +1,77 @@
 /* General Body Styling */
 body {
-    background: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Registration Container */
+.registration-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.registration-container h1 {
+    color: steelblue;
+    margin-bottom: 20px;
+}
+
+.peer {
+    color: skyblue;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: steelblue;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid steelblue;
+}
+
+.btn {
+    background-color: steelblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: skyblue;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: red;
 }
 
 /* Title Styling */
@@ -12,10 +80,6 @@ body {
     color: steelblue;
     text-align: center;
     margin: 20px 0;
-}
-
-.peer {
-    color: skyblue;
 }
 
 /* Navigation Bar */
@@ -74,18 +138,22 @@ body {
 
 /* Section Labels */
 .label1, .label2 {
-    display: block;
-    margin: 20px auto; /* Centers horizontally */
-    text-align: center;
-    background-color: steelblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: skyblue;
+    background-color: steelblue;
     padding: 5px 10px;
     border-radius: 50px;
-    width: fit-content; /* Ensures it adjusts to the content width */
+    display: inline-block;
+    margin: 20px 0 10px 20px;
 }
 
+.label1 {
+    width: 130px;
+}
 
-
+.label2 {
+    width: 150px;
+}
 
 /* Text Styling */
 .text {
@@ -93,12 +161,11 @@ body {
     color: steelblue;
     width: 90%;
     max-width: 600px;
-    display: block;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 10px 20px;
     background-color: white;
     border-radius: 10px;
-    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Services Section */
@@ -153,3 +220,4 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+    
