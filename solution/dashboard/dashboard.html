@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to Careerpeer</title>
-    <link rel="stylesheet" href="/solution/styles.css">
+    <title>Dashboard - Careerpeer</title>
+    <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
     <div class="dashboard-container">
-        <h1>Welcome, <span id="userName"></span>!</h1>
-        <p>We're excited to help you grow your cybersecurity career. Here's what you can do next:</p>
-        <ul>
-            <li>Explore networking opportunities with professionals.</li>
-            <li>Access learning paths tailored to your goals.</li>
-            <li>Get insights on interviews and certifications.</li>
-        </ul>
-        <button id="logoutButton" class="btn">Log Out</button>
+        <header>
+            <h1>Welcome, <span id="user-name"></span>!</h1>
+            <p>Your gateway to cybersecurity growth and opportunities.</p>
+            <button id="logout-button" class="logout-btn">Logout</button>
+        </header>
+
+        <section id="user-info">
+            <h2>Your Profile</h2>
+            <p><strong>Email:</strong> <span id="user-email"></span></p>
+            <p><strong>Position:</strong> <span id="user-position"></span></p>
+            <p id="extra-info"></p>
+        </section>
+
+        <section id="features">
+            <h2>Dashboard Features</h2>
+            <div class="feature-card">
+                <h3>Networking Opportunities</h3>
+                <p>Connect with cybersecurity professionals in roles you aspire to.</p>
+                <button onclick="redirectTo('../networking/networking.html')">Explore Networking</button>
+            </div>
+            <div class="feature-card">
+                <h3>Skill-Building Challenges</h3>
+                <p>Participate in real-world cybersecurity challenges and hone your skills.</p>
+                <button onclick="redirectTo('challenges.html')">Take Challenges</button>
+            </div>
+            <div class="feature-card">
+                <h3>Learning Resources</h3>
+                <p>Access curated resources and learning paths to grow your expertise.</p>
+                <button onclick="redirectTo('resources.html')">View Resources</button>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2024 Careerpeer. Empowering the next generation of cybersecurity professionals.</p>
+        </footer>
     </div>
+
     <script src="dashboard.js"></script>
 </body>
 </html>
