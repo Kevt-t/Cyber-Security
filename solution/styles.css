@@ -1,77 +1,11 @@
+
+
 /* General Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: aliceblue;
+    background: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-/* Registration Container */
-.registration-container {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    width: 400px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-}
-
-.registration-container h1 {
-    color: steelblue;
-    margin-bottom: 20px;
-}
-
-.peer {
-    color: skyblue;
-}
-
-/* Form Styling */
-.form-group {
-    margin-bottom: 15px;
-    text-align: left;
-}
-
-label {
-    display: block;
-    font-size: 14px;
-    color: steelblue;
-    margin-bottom: 5px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-}
-
-input:focus {
-    outline: none;
-    border: 1px solid steelblue;
-}
-
-.btn {
-    background-color: steelblue;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.btn:hover {
-    background-color: skyblue;
-}
-
-.message {
-    margin-top: 15px;
-    font-size: 14px;
-    color: red;
 }
 
 /* Title Styling */
@@ -80,6 +14,10 @@ input:focus {
     color: steelblue;
     text-align: center;
     margin: 20px 0;
+}
+
+.peer {
+    color: skyblue;
 }
 
 /* Navigation Bar */
@@ -143,8 +81,8 @@ input:focus {
     background-color: steelblue;
     padding: 5px 10px;
     border-radius: 50px;
-    display: inline-block;
-    margin: 20px 0 10px 20px;
+    margin: 20px auto 10px auto;
+    display: block;
 }
 
 .label1 {
@@ -152,7 +90,7 @@ input:focus {
 }
 
 .label2 {
-    width: 150px;
+    width: 155px;
 }
 
 /* Text Styling */
@@ -220,4 +158,3 @@ input:focus {
 .footer a:hover {
     text-decoration: underline;
 }
-    
