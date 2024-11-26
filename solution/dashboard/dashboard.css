@@ -1,0 +1,112 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    text-align: center;
+}
+
+/* Header */
+header h1 {
+    color: steelblue;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: skyblue;
+    font-size: 16px;
+}
+
+.logout-btn {
+    background-color: crimson;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.logout-btn:hover {
+    background-color: darkred;
+}
+
+/* User Information Section */
+#user-info h2 {
+    color: skyblue;
+    margin-bottom: 10px;
+}
+
+#user-info p {
+    color: steelblue;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Features Section */
+#features {
+    margin-top: 20px;
+}
+
+#features h2 {
+    color: steelblue;
+    margin-bottom: 20px;
+}
+
+.feature-card {
+    background-color: aliceblue;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 15px;
+    width: 80%;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+    color: steelblue;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: skyblue;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.feature-card button {
+    background-color: steelblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.feature-card button:hover {
+    background-color: skyblue;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    color: skyblue;
+    font-size: 12px;
+}
